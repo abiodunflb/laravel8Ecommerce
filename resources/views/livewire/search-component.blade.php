@@ -5,7 +5,7 @@
 			<div class="wrap-breadcrumb">
 				<ul>
 					<li class="item-link"><a href="/" class="link">home</a></li>
-					<li class="item-link"><span>All Products</span></li>
+					<li class="item-link"><span>Search Result </span></li>
 				</ul>
 			</div>
 			<div class="row">
@@ -20,7 +20,7 @@
 
 					<div class="wrap-shop-control">
 
-						<h1 class="shop-title">All Products</h1>
+						<h1 class="shop-title">Search Results</h1>
 
 						<div class="wrap-right">
 
@@ -85,7 +85,7 @@
 							</li>
                             @empty
 
-                            <h2>No Products available</h2>
+                            <h2>No Products Found</h2>
 
                             @endforelse
 
@@ -417,3 +417,4 @@
 		</div><!--end container-->
 
 	</main>
+
