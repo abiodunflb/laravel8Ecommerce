@@ -11,6 +11,7 @@
                                             <li class="level-0">All Category</li>
                                             @foreach($categories as $category)
 
+
                                             <li class="level-1" data-id="{{$category->id}}">-{{$category->name}}</li>
                                             @endforeach
 										</ul>
